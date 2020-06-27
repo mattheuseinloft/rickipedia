@@ -37,8 +37,8 @@ This project is being developed with the following technologies:
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces
 - [TypeScript](https://www.typescriptlang.org/): Programming language
 - [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) & [EditorConfig](https://editorconfig.org/): Code standardization and formatting
-<!-- - [Styled Components](https://styled-components.com/)
-- [react-icons](https://react-icons.github.io/react-icons/)
+- [Styled Components](https://styled-components.com/): Component styling
+<!-- - [react-icons](https://react-icons.github.io/react-icons/)
 - [polished](https://polished.js.org/): A lightweight toolset for writing styles in JavaScript
 - [Unform](https://github.com/Rocketseat/unform)
 - [yup](https://github.com/jquense/yup): Input validation
