@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import rickBackground from '../assets/rick-background.svg';
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -9,7 +11,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #202329;
+    background: #202329 url(${rickBackground}) no-repeat 70% top;
     color: #FFF;
     -webkit-font-smoothing: antialiased;
   }
@@ -32,6 +34,12 @@ export default createGlobalStyle`
     font-size: 20px;
     font-weight: 400;
   } */
+
+  #root {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
 
   button {
     cursor: pointer;
